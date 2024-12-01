@@ -14,6 +14,15 @@ img {
 
 }
 
+nav {
+    background-color: #E76F51;
+}
+
+footer {
+    background-color: #F4A261
+    text-align: center;
+}
+
 /* Mobile Styles */
 
 #container {
