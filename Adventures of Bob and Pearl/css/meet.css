@@ -1,0 +1,151 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A1C181;
+}
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+section #top {
+    background-color: #9EB1CD;
+}
+section #bottom {
+    background-color: #9EB1CD
+}
+
+nav {
+    background-color: #A1C181;
+}
+header {
+    background-color: #E76F51
+}
+footer {
+    background-color: #F4A261
+    text-align center;
+}
+
+/* Mobile Styles */
+
+#container {
+    margin: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #A1C181;
+    margin: 10px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    color: #023059;
+    
+}
+
+header {
+    padding: 5px;
+    background-color: #E76F51;
+}
+
+section {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.col {
+    padding: 10px;
+}
+
+.column {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 4px solid #1B1F20;
+}
+
+.column img {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F4A261;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: xxx-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }    
+    
+    nav {
+        padding: 10px;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+    }
+
+    #multi-col {
+        display: flex;
+    }
+   
+    .column image {
+        width: 50%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+
+
+    #lower_area {
+        display: flex;
+    }
+
+    .column img {
+        width: 75%;
+    }
+        
+    }
