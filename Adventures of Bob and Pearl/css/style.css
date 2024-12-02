@@ -15,9 +15,11 @@ img {
 }
 
 nav {
-    background-color: #E76F51;
+    background-color: #A1C181;
 }
-
+header {
+    background-color: #E76F51
+}
 footer {
     background-color: #F4A261
     text-align: center;
@@ -61,7 +63,7 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     color: #023059;
-    border-bottom: 4px solid #A6634B;
+    
 }
 
 header {
