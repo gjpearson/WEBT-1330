@@ -131,7 +131,7 @@ footer {
         width: 150px;
     }
 
-    #multi-col {
+    .multi-col {
         display: flex;
     }
    
