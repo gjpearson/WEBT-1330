@@ -11,7 +11,6 @@ img {
     display: block;
     width: 100%;
     margin: 0 auto;
-
 }
 
 nav {
@@ -23,6 +22,10 @@ header {
 footer {
     background-color: #F4A261
     text-align center;
+}
+
+col {
+    width: 45%;
 }
 
 /* Mobile Styles */
@@ -83,7 +86,6 @@ section {
 .column {
     margin: 10px;
     padding: 10px;
-    border-bottom: 4px solid #1B1F20;
 }
 
 .column img {
