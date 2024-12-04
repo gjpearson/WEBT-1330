@@ -12,7 +12,10 @@ img {
     width: 100%;
     margin: 0 auto;
 }
-
+h1,h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 nav {
     background-color: #A1C181;
 }
@@ -34,9 +37,6 @@ col {
     margin: 10px;
 }
 
-p {
-    padding: 10px;
-}
 
 h1, h2 {
     text-align: center;
@@ -62,10 +62,11 @@ nav li a {
     margin: 10px 0;
     height: 40px;
     line-height: 40px;
-    font-size: medium;
+    font-size: x-large;
     font-weight: bold;
     text-decoration: none;
     color: #023059;
+    border-bottom: 4px solid #A6634B;
     
 }
 
@@ -75,8 +76,9 @@ header {
 }
 
 section {
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 10px;
+    font-size: large;
 }
 
 .col {
@@ -126,6 +128,11 @@ footer {
    
     .column image {
         width: 50%;
+    }
+
+    col_text {
+        margin-top: 40px;
+        font-size: 32px;
     }
 
 }
